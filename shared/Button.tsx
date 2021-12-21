@@ -1,5 +1,5 @@
 import {React} from 'react'
 
-const Button = (text)=>{
+export const CST_Button = (text)=>{
     return <div styles='{{backgroundColor:red}}'>{text}</div>
 }
